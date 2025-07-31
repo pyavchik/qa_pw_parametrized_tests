@@ -11,16 +11,14 @@
 
 ## Task
 
-1. Parametrize test cases for CoffeeCart to test different coffees:
-   
+1. Convert tests within `tests/menuTests` folder `cappuccinoAddedToTotal.spec.js` and `espressoAddedToTotal.spec.js` into parametrized test `coffeeAddedToTotal.spec.js`. 
+2. Convert tests within `tests/menuTests` folder `cappuccinoHasCorrectCost.spec.js` and `espressoHasCorrectCost.spec.js` into parametrized test `coffeeHasCorrectCost.spec.js`. 
+3. Convert tests within `tests/removeFromCart` folder `cappuccinoRemovedFromCart.spec.js` and `espressoRemovedFromCart.spec.js` into parametrized test `coffeeRemovedFromCart.spec.js`. 
     - `coffeeAddedToCart.spec.js`
-    - `coffeeAddedToTotal.spec.js`
-    - `coffeeHasCorrectCost.spec.js`
-    - `coffeeRemovedFromCart.spec.js`
-
-2. Create new methods to work for any coffee (without hardcoded names) in the page classes. Use `coffeeCupAddedToCart.spec.js` as an example.
-3. Remove old redundant methods (with hardcoded names) from page classes.
-4. Re-run all your tests and make sure they pass after the updates.
+4. Use `tests/addToCart/coffeeCupAddedToCart.spec.js` as an example.
+5. Create new methods to work for any coffee (without hardcoded names) in the page classes.
+6. Remove old redundant methods (with hardcoded names) from page classes.
+7. Re-run all your tests and make sure they pass after the updates.
 
 ## Task Reporting
 
